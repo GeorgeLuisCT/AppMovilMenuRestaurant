@@ -171,7 +171,7 @@ public class MakePaymentActivity extends AppCompatActivity implements SendEmailT
                 .setView(imageView)
                 .setPositiveButton("Enviar", (dialogInterface, i) -> {
 
-                    SendEmailTask sendEmailTask  = new SendEmailTask(MakePaymentActivity.this,"georgeluisct19@gmail.com", "Nuevo pedido", buildMessage().toString(), "gaedetdev@gmail.com", "ntfgyuzuusxwxvnb", selectedImageUri);
+                    SendEmailTask sendEmailTask  = new SendEmailTask(MakePaymentActivity.this,"example@gmail.com", "Nuevo pedido", buildMessage().toString(), "example@gmail.com", "example", selectedImageUri);
                     sendEmailTask.setEmailTaskListener(this);
                     sendEmailTask.execute();
                     showProgressDialog();
