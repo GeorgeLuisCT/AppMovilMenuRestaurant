@@ -1,0 +1,36 @@
+# Archivos de construcción de Android
+build/
+captures/
+*.iml
+
+# Archivos de configuración de Android Studio
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Archivos de configuración de Gradle
+.gradle/
+build/
+
+# Archivos de salida generados
+app/build/
+*/build/
+*/out/
+.externalNativeBuild
+.cxx
+
+# Archivos de respaldo
+*~
+*.swp
+
+# Archivos de configuración local (ej. keystore, google-services.json, etc.)
+app/google-services.json
+app/release.keystore
+local.properties
+
+# Otros archivos específicos
+.DS_Store

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MenúDelivery</string>
+    <!-- TODO: Eliminar o cambiar este texto de marcador de posición -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="home">Inicio</string>
+    <string name="shopping_cart">Carrito de compras</string>
+    <string name="profile">Perfil</string>
+    <string name="search">Buscar</string>
+    <string name="added_cart">Tu pedido ha sido agregado a tu lista de pedidos</string>
+    <string name="accept">Aceptar</string>
+    <string name="add_to_cart">Agregar al carrito</string>
+    <string name="string_product_details">Detalles del producto</string>
+    <string name="price">Precio</string>
+    <string name="next_step">Siguiente paso</string>
+    <string name="pay">Pagar</string>
+    <string name="details">Detalles</string>
+    <string name="text_register">Registrarse</string>
+    <string name="hint_user">Usuario</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="name">Nombre:</string>
+    <string name="contact">Contacto:</string>
+    <string name="address">Dirección:</string>
+    <string name="mail">Correo:</string>
+    <string name="men">Menú</string>
+    <string name="extras">Extras</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="my_order">Mi orden</string>
+    <string name="payment_method">Selecciona tu metodo de pago</string>
+    <string name="phone">Telefono: </string>
+    <string name="qr">QR:</string>
+    <string name="upload_voucher">Subir comprobante</string>
+    <string name="number">Numero :</string>
+    <string name="infocart">
+    Actualmente no tienes ningún plato en tu carrito, <br/>
+    si deseas selecciona uno desde el menú. <br/>
+    <b>Si tienes algún pedido pendiente, puedes verlo <br/>
+    en la sección de tu perfil.</b> </string>
+</resources>

@@ -1,0 +1,44 @@
+
+<TableRow
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/background_table">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="5dp"
+        android:text="Pedido"
+        android:textAlignment="textStart"
+        android:textColor="@color/highlighted_color" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:text="Cantidad"
+        android:textAlignment="center"
+        android:textColor="@color/highlighted_color" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Precio S/."
+        android:textAlignment="center"
+        android:textColor="@color/highlighted_color" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Total S/."
+        android:textAlignment="center"
+        android:textColor="@color/highlighted_color" />
+</TableRow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo con esquinas redondeadas -->
+    <item android:top="0dp">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="120dp" android:bottomRightRadius="120dp" />
+            <solid android:color="@color/secondary_on_color" />
+        </shape>
+    </item>
+</layer-list>
